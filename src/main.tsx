@@ -8,6 +8,8 @@ import Menu from './Menu';
 
 const GlobalStyled = createGlobalStyle`
   * {
+    background-color: #000;
+    color: #fff;
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -23,5 +25,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <Route path='/' element={<App />}/>
       </Routes>
     </BrowserRouter>
+    <GlobalStyled/>
   </React.StrictMode>,
 );
