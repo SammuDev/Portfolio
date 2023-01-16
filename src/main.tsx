@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from 'react-router';
 import { createGlobalStyle } from 'styled-components';
 import Menu from './Menu';
+import Home from './Home';
 
 const GlobalStyled = createGlobalStyle`
   * {
@@ -15,6 +15,9 @@ const GlobalStyled = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+  a {
+    text-decoration: none;
+  }
 `;
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -22,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <BrowserRouter>
       <Menu/>
       <Routes>
-        <Route path='/' element={<App />}/>
+        <Route path='/' element={<Home />}/>
       </Routes>
     </BrowserRouter>
     <GlobalStyled/>
