@@ -1,4 +1,4 @@
-import mySelf from './img/eu.png';
+import mySelf from './img/eu-edit-preto.png';
 
 import Me from "./styles/Me";
 import MySelf from './styles/MySelf';
@@ -8,12 +8,14 @@ const Home = () => {
   return (
     <Me>
       <TitleMe>
-        <h1>Digital designer <br />
-        crafting products <br />
-        that people love</h1> <br />
+        <h1>
+          Desenvolvedor Front-End <br /> React - TypeScript
+        </h1>
 
-        <p>I'm David Louis— a designer who works with startups looking to push creative boundaries and create unique
-        user experiences.</p>
+        <br />
+        <p>Meu nome é Samuel Santos, tenho 21 anos e Sou Desenvolvedor</p>
+        <p>de Software Front-End, e nessa página você conhecerá um pouco</p>
+        <p>mais sobre mim, meus projetos e os objetivos que almejo.</p>
       </TitleMe>
 
       <MySelf>
