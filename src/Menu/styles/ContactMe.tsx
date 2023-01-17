@@ -1,18 +1,24 @@
 import styled from "styled-components";
 
 const ContactMe = styled.div`
-  margin-right: 100px;
+  margin-right: 20px;
+  display: none;
 
-  a {
-    border-radius: 25px;
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    transition: .5s;
+  @media screen and (min-width: 749px) {
+    margin-right: 100px;
     display: inline-block;
-    &:hover {
-      background-color: #222222;
+
+    a {
+      border-radius: 25px;
+      width: 150px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      transition: .5s;
+      display: inline-block;
+      &:hover {
+        background-color: #222222;
+      }
     }
   }
 `;
