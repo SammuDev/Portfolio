@@ -5,7 +5,6 @@ interface Props {
 }
 
 const MenuMobile = styled.div<Props>`
-  border: 2px solid blue;
   display: ${props => props.on ? 'flex' : 'none'};
   align-items: center;
   flex-direction: column;

@@ -8,7 +8,7 @@ import Nav from "./styles/Nav";
 import NavBar from './styles/NavBar';
 import ContactMe from './styles/ContactMe';
 import Logo from './styles/Logo';
-import MenuHamburg from './styles/MenuHamburg';
+import ButtonHamburg from './styles/ButtonHamburg';
 import Hr from './styles/Hr';
 import SpanBox from './styles/SpanBox';
 import MenuMobile from './styles/MenuMobile';
@@ -24,7 +24,7 @@ const Menu: React.FC = () => {
         </Logo>
 
         {/*BOTÃO DE MENU MOBILE */}
-        <MenuHamburg onClick={() => setIsOn(!isOn)}>
+        <ButtonHamburg onClick={() => setIsOn(!isOn)}>
           {!isOn ? (
           <span>
             <div></div>
@@ -38,7 +38,7 @@ const Menu: React.FC = () => {
             <div></div>
           </SpanBox>
           )}
-        </MenuHamburg>
+        </ButtonHamburg>
 
         <NavBar>
           <Link to={'/'}>Home</Link>

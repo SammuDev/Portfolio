@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const MenuHamburg = styled.button`
+const ButtonHamburg = styled.button`
   border: none;
   width: 35px;
   margin-right: 40px;
@@ -16,4 +16,4 @@ const MenuHamburg = styled.button`
   }
 `;
 
-export default MenuHamburg;
+export default ButtonHamburg;
