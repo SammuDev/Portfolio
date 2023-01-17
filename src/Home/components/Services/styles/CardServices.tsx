@@ -5,7 +5,6 @@ const CardServices = styled.div`
   margin: 0 auto 50px;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-evenly; */
 `;
 
 export default CardServices;

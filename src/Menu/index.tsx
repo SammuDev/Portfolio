@@ -43,7 +43,6 @@ const Menu: React.FC = () => {
         <NavBar>
           <Link to={'/'}>Home</Link>
           <Link to={'/'}>Services</Link>
-          <Link to={'/'}>About Me</Link>
           <Link to={'/'}>Projects</Link>
         </NavBar>
 
@@ -55,7 +54,6 @@ const Menu: React.FC = () => {
       <MenuMobile on={isOn}>
         <Link to={'/'}>Home</Link>
         <Link to={'/'}>Services</Link>
-        <Link to={'/'}>About Me</Link>
         <Link to={'/'}>Projects</Link>
       </MenuMobile>
       <Hr/>

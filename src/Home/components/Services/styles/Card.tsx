@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 const Card = styled.div`
   border-top: 3px solid #006eff;
+  border-bottom: 3px solid #aa02aa;
   border-radius: 10px;
   background-color: var(--bs-gray-900);
   width: 90%;
-  height: 300px;
+  height: 500px;
   margin: 0 auto 20px;
   padding: 15px;
   transition: .5s;
@@ -15,8 +16,10 @@ const Card = styled.div`
   }
 
   @media screen and (min-width: 749px) {
-    border-top: 5px solid #0044ff;
     width: 340px;
+    & * {
+      transform: none;
+    }
   }
 `;
 
