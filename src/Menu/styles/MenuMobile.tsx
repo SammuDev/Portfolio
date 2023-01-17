@@ -1,14 +1,17 @@
 import styled from "styled-components";
 
-const MenuMobile = styled.button`
-  border: none;
-  width: 35px;
-  margin-right: 40px;
+interface Props {
+  on: any;
+}
 
-  div {
-    border: 3px solid #fff;
-    border-radius: 5px;
-    margin-bottom: 6px;
+const MenuMobile = styled.div<Props>`
+  border: 2px solid blue;
+  display: ${props => props.on ? 'flex' : 'none'};
+  align-items: center;
+  flex-direction: column;
+
+  a {
+    margin-bottom: 20px;
   }
 
   @media screen and (min-width: 749px) {

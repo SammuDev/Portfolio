@@ -4,7 +4,7 @@ import Me from "./styles/Me";
 import MySelf from './styles/MySelf';
 import TitleMe from "./styles/TitleMe";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <Me>
       <TitleMe>
