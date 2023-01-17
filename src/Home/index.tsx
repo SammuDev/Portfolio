@@ -1,4 +1,4 @@
-import Services from './components/Services';
+import Services from './components/Services/Services';
 import mySelf from './img/eu-edit-preto.png';
 import Hr from './styles/Hr';
 
@@ -25,6 +25,7 @@ const Home: React.FC = () => {
           <img src={mySelf} alt="Imagem Pessoal" />
         </MySelf>
       </Me>
+      <Hr/>
       <Hr/>
       <Services/>
     </>

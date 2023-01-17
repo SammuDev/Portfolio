@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router';
 import { createGlobalStyle } from 'styled-components';
 import Menu from './Menu';
 import Home from './Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const GlobalStyled = createGlobalStyle`
   * {

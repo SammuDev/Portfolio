@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
 const Hr = styled.hr`
-  margin: 0 auto 30px;
+  width: 90%;
+  margin: 20px auto 30px;
+
+  @media screen and (min-width: 749px) {
+    width: 70%;
+  }
 `;
 
 export default Hr;
