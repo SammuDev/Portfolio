@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ParagraphServices = styled.p`
-  margin: 20px 50px;
+  margin: 20px 80px;
   text-align: justify;
 `;
 

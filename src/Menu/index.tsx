@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import { Link } from 'react-router-dom';
+
 import logo from './img/logo-react-icon.png';
 
 // Abaixo: Styled-Components
