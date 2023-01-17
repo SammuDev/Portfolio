@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
 const TitleMe = styled.div`
+  /* text-align: center; */
+  padding: 20px;
   h1 {
     background-image: linear-gradient(45deg, #B095D9, #8C89EB, #0044ff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
-    font-size: 30px;
+    font-size: 40px;
+    text-align: center;
   }
   p {
     font-family: cursive;
@@ -16,12 +19,8 @@ const TitleMe = styled.div`
 
   @media screen and (min-width: 749px) {
     h1 {
-      background-image: linear-gradient(45deg, #B095D9, #8C89EB, #0044ff);
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      color: black;
       font-size: 60px;
+      text-align: left;
     }
   }
 `;

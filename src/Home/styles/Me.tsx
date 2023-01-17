@@ -7,7 +7,7 @@ const Me = styled.section`
     padding: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px;
+    grid-template-rows: 400px;
   }
 `;
 
