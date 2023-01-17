@@ -10,6 +10,7 @@ const MenuMobile = styled.div<Props>`
   flex-direction: column;
 
   a {
+    color: #fff;
     margin-bottom: 20px;
   }
 

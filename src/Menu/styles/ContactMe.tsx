@@ -10,6 +10,7 @@ const ContactMe = styled.div`
 
     a {
       border-radius: 25px;
+      color: #fff;
       width: 150px;
       height: 50px;
       line-height: 50px;
