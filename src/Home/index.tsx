@@ -1,3 +1,4 @@
+import AboutMe from './components/AboutMe/AboutMe';
 import Services from './components/Services/Services';
 import mySelf from './img/eu-edit-preto.png';
 import Hr from './styles/Hr';
@@ -26,6 +27,9 @@ const Home: React.FC = () => {
         </MySelf>
       </Me>
       <Hr/>
+
+      <AboutMe/>
+
       <Hr/>
       <Services/>
     </>

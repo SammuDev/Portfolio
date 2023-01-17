@@ -25,7 +25,7 @@ const Menu: React.FC = () => {
         </Logo>
 
         {/*BOTÃO DE MENU MOBILE */}
-        <ButtonHamburg onClick={() => setIsOn(!isOn)}>
+        {/* <ButtonHamburg onClick={() => setIsOn(!isOn)}>
           {!isOn ? (
           <span>
             <div></div>
@@ -49,14 +49,14 @@ const Menu: React.FC = () => {
 
         <ContactMe>
           <Link to={'/'}>Contact Me</Link>
-        </ContactMe>
+        </ContactMe> */}
       </Nav>
 
-      <MenuMobile on={isOn}>
+      {/* <MenuMobile on={isOn}>
         <Link to={'/'}>Home</Link>
         <Link to={'/'}>Services</Link>
         <Link to={'/'}>Projects</Link>
-      </MenuMobile>
+      </MenuMobile> */}
       <Hr/>
     </header>
   );
