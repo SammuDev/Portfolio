@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
-const LinkProject = styled.a`
+const LinkImgProject = styled.a`
   background-color: #f1f1f1;
-  height: 300px;
-  cursor: pointer;
+  height: 140px;
   display: inline-block;
 
   img {
@@ -11,6 +10,10 @@ const LinkProject = styled.a`
     color: #000;
     width: 100%;
   }
+
+  @media screen and (min-width: 1020px) {
+    height: 300px;
+  }
 `;
 
-export default LinkProject;
+export default LinkImgProject;
