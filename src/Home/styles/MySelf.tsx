@@ -9,7 +9,7 @@ const MySelf = styled.div`
     height: 400px;
   }
 
-  @media screen and (min-width: 749px) {
+  @media screen and (min-width: 1020px) {
     /* text-align: center; */
 
     /* img {

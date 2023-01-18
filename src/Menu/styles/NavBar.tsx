@@ -3,7 +3,7 @@ import styled from "styled-components";
 const NavBar = styled.div`
   display: none;
 
-  @media screen and (min-width: 749px) {
+  @media screen and (min-width: 1020px) {
     display: flex;
     gap: 10px;
 

@@ -17,7 +17,7 @@ const TitleMe = styled.div`
     margin-top: 15px;
   }
 
-  @media screen and (min-width: 749px) {
+  @media screen and (min-width: 1020px) {
     h1 {
       font-size: 60px;
       text-align: left;

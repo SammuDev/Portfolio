@@ -11,7 +11,7 @@ const ButtonHamburg = styled.button`
     margin-bottom: 6px;
   }
 
-  @media screen and (min-width: 749px) {
+  @media screen and (min-width: 1020px) {
     display: none;
   }
 `;

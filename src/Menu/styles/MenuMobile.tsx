@@ -14,7 +14,7 @@ const MenuMobile = styled.div<Props>`
     margin-bottom: 20px;
   }
 
-  @media screen and (min-width: 749px) {
+  @media screen and (min-width: 1020px) {
     display: none;
   }
 `;

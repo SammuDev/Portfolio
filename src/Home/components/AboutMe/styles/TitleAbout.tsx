@@ -17,7 +17,7 @@ const TitleAbout = styled.h1`
     margin-top: 20px;
   }
 
-  @media screen and (min-width: 749px) {
+  @media screen and (min-width: 1020px) {
     font-size: 60px;
   }
 `;

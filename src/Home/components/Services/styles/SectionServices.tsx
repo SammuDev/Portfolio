@@ -6,7 +6,7 @@ const SectionServices = styled.section`
     padding: 20px;
   }
 
-  @media screen and (min-width: 749px) {
+  @media screen and (min-width: 1020px) {
     h1 {
       font-size: 60px;
     }

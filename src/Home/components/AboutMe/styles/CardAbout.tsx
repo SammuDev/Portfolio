@@ -9,7 +9,7 @@ const CardAbout = styled.div<Props>`
   height: 550px;
   margin-top: 30px;
 
-  @media screen and (min-width: 749px) {
+  @media screen and (min-width: 1020px) {
     border-top: 1px solid ${props => props.cor};
     border-radius: 10px 0 0;
     height: 250px;

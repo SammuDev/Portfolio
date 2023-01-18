@@ -4,7 +4,7 @@ const ContactMe = styled.div`
   margin-right: 20px;
   display: none;
 
-  @media screen and (min-width: 749px) {
+  @media screen and (min-width: 1020px) {
     margin-right: 100px;
     display: inline-block;
 
