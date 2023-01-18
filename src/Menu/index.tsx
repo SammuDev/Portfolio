@@ -24,8 +24,8 @@ const Menu: React.FC = () => {
           <Link to={'/'}><img src={logo} alt="Logo" /></Link>
         </Logo>
 
-        {/*BOTÃO DE MENU MOBILE */}
-        {/* <ButtonHamburg onClick={() => setIsOn(!isOn)}>
+        {/* BOTÃO DE MENU MOBILE */}
+        <ButtonHamburg onClick={() => setIsOn(!isOn)}>
           {!isOn ? (
           <span>
             <div></div>
@@ -43,20 +43,20 @@ const Menu: React.FC = () => {
 
         <NavBar>
           <Link to={'/'}>Home</Link>
-          <Link to={'/'}>Services</Link>
-          <Link to={'/'}>Projects</Link>
+          {/* <Link to={'/'}>Services</Link>
+          <Link to={'/'}>Projects</Link> */}
         </NavBar>
 
         <ContactMe>
           <Link to={'/'}>Contact Me</Link>
-        </ContactMe> */}
+        </ContactMe>
       </Nav>
 
-      {/* <MenuMobile on={isOn}>
+      <MenuMobile on={isOn}>
         <Link to={'/'}>Home</Link>
-        <Link to={'/'}>Services</Link>
-        <Link to={'/'}>Projects</Link>
-      </MenuMobile> */}
+        {/* <Link to={'/'}>Services</Link>
+        <Link to={'/'}>Projects</Link> */}
+      </MenuMobile>
       <Hr/>
     </header>
   );
