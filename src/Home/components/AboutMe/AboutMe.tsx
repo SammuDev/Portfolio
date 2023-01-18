@@ -16,7 +16,7 @@ const AboutMe: React.FC = () => {
     <SectionAbout>
       <TitleAbout>
         Habilidades e Competências
-        <p>Conheça um pouco sobre minhas stacks!</p>
+        <p>Conheça um pouco sobre minhas principais stacks!</p>
       </TitleAbout>
 
       <CardAbout>

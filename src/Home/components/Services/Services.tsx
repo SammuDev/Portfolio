@@ -10,11 +10,14 @@ import Pcard from "./styles/Pcard";
 import SectionServices from "./styles/SectionServices";
 import TitleServices from "./styles/TitleServices";
 import ParagraphServices from './styles/ParagraphServices';
+import BackColorALL from '../../styles/BackColorALL';
 
 const Services: React.FC = () => {
   return (
     <SectionServices>
-      <TitleServices>Prestação de serviços</TitleServices>
+      <TitleServices>
+        Prestação de <BackColorALL>Serviços</BackColorALL>
+      </TitleServices>
 
       <ParagraphServices>
         Minha experiência inclui o desenvolvimento de aplicativos web complexos com React, onde tive a

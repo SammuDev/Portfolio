@@ -1,4 +1,6 @@
 import AboutMe from './components/AboutMe/AboutMe';
+import Footer from './components/Footer/Footer';
+import Projects from './components/Projects/Projects';
 import Services from './components/Services/Services';
 import mySelf from './img/eu-edit-preto.png';
 import Hr from './styles/Hr';
@@ -13,7 +15,8 @@ const Home: React.FC = () => {
       <Me>
         <TitleMe>
           <h1>
-            Desenvolvedor Front-End <br /> React - TypeScript
+            Desenvolvedor Front-End <br/>
+            React - TypeScript
           </h1>
 
           <br />
@@ -26,12 +29,18 @@ const Home: React.FC = () => {
           <img src={mySelf} alt="Imagem Pessoal" />
         </MySelf>
       </Me>
-      <Hr/>
 
+      <Hr/>
       <AboutMe/>
 
       <Hr/>
       <Services/>
+
+      <Hr/>
+      <Projects/>
+
+      <Hr/>
+      <Footer/>
     </>
   );
 };
