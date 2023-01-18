@@ -4,7 +4,7 @@ const TitleMe = styled.div`
   /* text-align: center; */
   padding: 20px;
   h1 {
-    background-image: linear-gradient(45deg, #B095D9, #8C89EB, #0044ff);
+    background-image: linear-gradient( #B095D9, #8C89EB, #0044ff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
