@@ -7,6 +7,7 @@ type Props = {
 const CardAviso = styled.div<Props>`
   border: 3px solid #fff;
   border-radius: 10px;
+  font-size: 30px;
   text-align: center;
   margin-top: 25px;
   padding: 20px;
