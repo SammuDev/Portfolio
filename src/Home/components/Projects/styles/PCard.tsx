@@ -5,7 +5,7 @@ const PCard = styled.p`
   color: #000;
   text-indent: 20px;
   text-align: justify;
-  height: 270px;
+  height: 240px;
 
   @media screen and (min-width: 1020px) {
     height: 100px;

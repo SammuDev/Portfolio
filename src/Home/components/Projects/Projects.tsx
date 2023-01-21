@@ -23,8 +23,7 @@ const Projects: React.FC = () => {
         <TitleProject>
           Selecione um <BackColorALL>Projeto</BackColorALL>
         </TitleProject>
-        <p>A sessão projetos é uma área do site onde podem encontrar informações detalhadas sobre os projetos em andamento ou
-          concluídos por mim. </p>
+        <p>A sessão de projetos é onde podem ser encontrados projetos em andamento ou concluídos por mim. </p>
 
         {/* PRIMEIRO PROJETO */}
         <CardProject>
