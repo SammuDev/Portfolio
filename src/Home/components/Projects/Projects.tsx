@@ -10,6 +10,8 @@ import TitleProject from "./styles/TitleProject";
 import PCard from './styles/PCard';
 import LinkTitleCard from './styles/LinkTitleCard';
 import LinkButtonCard from './styles/LinkButtonCard';
+import CardAviso from './styles/CardAviso';
+import Loading from './styles/Loading';
 
 const Projects: React.FC = () => {
   const linkPokeApi = 'https://singular-creponne-1b412e.netlify.app/';
@@ -38,6 +40,8 @@ const Projects: React.FC = () => {
 
           <LinkButtonCard href={linkPokeApi} target={'_blank'}>View Project ▶</LinkButtonCard>
         </CardProject>
+
+        <CardAviso>Projetinho grande vindo aí, aguardem...</CardAviso>
       </Column>
 
       <Column>
@@ -57,17 +61,19 @@ const Projects: React.FC = () => {
 
         {/* TERCEIRO PROJETO */}
         {/* <CardProject>
-          <LinkImgProject href={linkGerador} target={'_blank'}><img src={Gerador} alt="Logo Gerador de Senhas" /></LinkImgProject>
+          <LinkImgProject href={} target={'_blank'}><img src={Gerador} alt="Logo Gerador de Senhas" /></LinkImgProject>
 
-          <LinkTitleCard href={linkGerador} target={'_blank'} cor={'#5A5A5A'}>Gerador</LinkTitleCard>
+          <LinkTitleCard href={} target={'_blank'} cor={'#5A5A5A'}>Gerador</LinkTitleCard>
           <PCard>
             Ajuda os usuários a criar senhas seguras e únicas para suas contas online. Ele oferece opções para personalizar a
             senha, como o tamanho da senha, os caracteres permitidos e a inclusão de números, letras maiúsculas e símbolos, podendo
             criar senhas fortes que são difíceis de adivinhar.
           </PCard>
 
-          <LinkButtonCard href={linkGerador} target={'_blank'}>View Project ▶</LinkButtonCard>
+          <LinkButtonCard href={} target={'_blank'}>View Project ▶</LinkButtonCard>
         </CardProject> */}
+
+        <CardAviso>Projetinho grande vindo aí, aguardem <Loading/></CardAviso>
       </Column>
 
     </SectionProjects>
