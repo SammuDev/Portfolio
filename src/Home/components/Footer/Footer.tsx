@@ -11,6 +11,7 @@ import Column from "./styles/Column";
 import Copyright from "./styles/Copyright";
 import LinkSocial from "./styles/LinkSocial";
 import TitleFooter from "./styles/TitleFooter";
+import BackColorALL from "../../styles/BackColorALL";
 
 const Footer: React.FC = () => {
   const In = 'https://www.linkedin.com/in/samuel-santos-5b1626216/';
@@ -21,13 +22,19 @@ const Footer: React.FC = () => {
     <SectionFooter>
       <GridBox>
         <Column>
-          <TitleFooter>Entre em contato</TitleFooter>
+          <TitleFooter>
+            <BackColorALL>Entre em contato</BackColorALL>
+          </TitleFooter>
+
           <LinkEmail href='mailto:samucas878@gmail.com'><FaEnvelope/> samucas878@gmail.com</LinkEmail><br/>
           <LinkWhats href='https://wa.me/5579988042570' target={'_blank'}><SiWhatsapp/> (79) 9.8804-2570</LinkWhats>
         </Column>
 
         <Column>
-          <TitleFooter>Redes Sociais</TitleFooter>
+          <TitleFooter none={'none'}>
+            <BackColorALL>Redes Sociais</BackColorALL>
+          </TitleFooter>
+
           <LinkSocial href={In}><FaLinkedinIn/> Linkedin</LinkSocial>
           <LinkSocial href={GitGub}><FaGithub/> GitHub</LinkSocial>
           <LinkSocial href={Insta}><FaInstagram/> Instagram</LinkSocial>
