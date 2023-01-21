@@ -16,8 +16,6 @@ const Loading = styled.div`
   width: 20px;
   height: 20px;
   animation: spinner 1.5s infinite;
-  position: relative;
-  top: 5px;
   display: inline-block;
 `;
 
