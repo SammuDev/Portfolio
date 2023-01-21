@@ -41,7 +41,10 @@ const Projects: React.FC = () => {
           <LinkButtonCard href={linkPokeApi} target={'_blank'}>View Project ▶</LinkButtonCard>
         </CardProject>
 
-        <CardAviso>Projetinho grande vindo aí, aguardem...</CardAviso>
+        <CardAviso display={'none'}>
+          Projetinho grande vindo aí,<br/>
+          aguardem <Loading/>
+        </CardAviso>
       </Column>
 
       <Column>
@@ -73,7 +76,10 @@ const Projects: React.FC = () => {
           <LinkButtonCard href={} target={'_blank'}>View Project ▶</LinkButtonCard>
         </CardProject> */}
 
-        <CardAviso>Projetinho grande vindo aí, aguardem <Loading/></CardAviso>
+        <CardAviso>
+          Projetinho grande vindo aí<br/>
+          Aguardem <Loading/>
+        </CardAviso>
       </Column>
 
     </SectionProjects>
