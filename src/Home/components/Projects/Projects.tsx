@@ -1,4 +1,4 @@
-import Pikachu from './img/pikachu.jpg';
+import Pikachu from './img/pokeball.jpg';
 import Gerador from './img/gerador.jpg';
 
 import BackColorALL from "../../styles/BackColorALL";
@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
         <CardProject>
           <LinkImgProject href={linkPokeApi} target={'_blank'}><img src={Pikachu} alt="Logo Pikachu" /></LinkImgProject>
 
-          <LinkTitleCard href={linkPokeApi} target={'_blank'} cor={'#DDC30A'}>Poke-API</LinkTitleCard>
+          <LinkTitleCard href={linkPokeApi} target={'_blank'} cor={'#ff0000'}>Poke-API</LinkTitleCard>
           <PCard>
             site pode exibir uma lista de todos os Pokémon disponíveis na série, incluindo suas
             imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos
