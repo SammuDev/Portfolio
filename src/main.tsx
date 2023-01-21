@@ -17,6 +17,7 @@ const GlobalStyled = createGlobalStyle`
     box-sizing: border-box;
   }
   a {
+    color: #fff;
     text-decoration: none;
   }
 `;
