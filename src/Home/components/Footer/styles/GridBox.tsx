@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const GridBox = styled.div`
+
   display: grid;
 
   @media screen and (min-width: 1020px) {

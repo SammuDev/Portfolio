@@ -1,32 +1,41 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LinkEmail from "./styles/LinkEmail";
 import LinkWhats from "./styles/LinkWhats";
 import SectionFooter from "./styles/SectionFooter";
 
-import { FaWhatsapp } from "react-icons/fa";
+import { FaCopyright, FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+
 import GridBox from "./styles/GridBox";
+import Column from "./styles/Column";
+import Copyright from "./styles/Copyright";
+import LinkSocial from "./styles/LinkSocial";
 
 const Footer: React.FC = () => {
+  const In = 'https://www.linkedin.com/in/samuel-santos-5b1626216/';
+  const GitGub = 'https://github.com/SammuDev';
+  const Insta = 'https://www.instagram.com/samuca_dev/';
+
   return (
     <SectionFooter>
       <GridBox>
-        <div>
+        <Column>
           <LinkEmail href='mailto:samucas878@gmail.com'><FaEnvelope/> samucas878@gmail.com</LinkEmail><br/>
           <LinkWhats href='https://wa.me/5579988042570' target={'_blank'}><FaWhatsapp/> +55 (79) 9.8804-2570</LinkWhats>
-        </div>
+        </Column>
 
-        <div>
+        <Column>
           <h2>Redes Sociais</h2>
-          <p>Linkedin</p>
-          <p>GitHub</p>
-          <p>Instagram</p>
-        </div>
+          <LinkSocial href={In}><FaLinkedinIn/> Linkedin</LinkSocial>
+          <LinkSocial href={GitGub}><FaGithub/> GitHub</LinkSocial>
+          <LinkSocial href={Insta}><FaInstagram/> Instagram</LinkSocial>
+        </Column>
       </GridBox>
 
-      <div>
-        &copy;
-      </div>
+      <hr />
+
+      <Copyright>
+        <FaCopyright/> Copyright
+      </Copyright>
     </SectionFooter>
   );
 };
