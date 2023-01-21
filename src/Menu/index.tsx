@@ -48,7 +48,7 @@ const Menu: React.FC = () => {
         </NavBar>
 
         <ContactMe>
-          <Link to={'/'}>Contact Me</Link>
+          {/* <Link to={'/'}>Contact Me</Link> */}
         </ContactMe>
       </Nav>
 
