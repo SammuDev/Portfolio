@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
         <CardProject>
           <LinkImgProject href={linkPokeApi} target={'_blank'}><img src={Pikachu} alt="Logo Pikachu" /></LinkImgProject>
 
-          <LinkTitleCard href={linkPokeApi} target={'_blank'} cor={'#ff0000'}>Poke-API</LinkTitleCard>
+          <LinkTitleCard href={linkPokeApi} target={'_blank'} cor={'#7E2322'}>Poke-API</LinkTitleCard>
           <PCard>
             site pode exibir uma lista de todos os Pokémon disponíveis na série, incluindo suas
             imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos
