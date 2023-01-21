@@ -1,6 +1,10 @@
+import SectionFooter from "./styles/SectionFooter";
+
 const Footer: React.FC = () => {
   return (
-    <div>Footer</div>
+    <SectionFooter>
+      TEXTO
+    </SectionFooter>
   );
 };
 

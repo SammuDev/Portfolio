@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
         </CardProject>
 
         <CardAviso display={'none'}>
-          Projetos em andamento <Loading/>
+          Projeto em andamento <Loading/>
         </CardAviso>
       </Column>
 
@@ -76,7 +76,7 @@ const Projects: React.FC = () => {
         </CardProject> */}
 
         <CardAviso>
-          Projetos em andamento <Loading/>
+          Projeto em andamento <Loading/>
         </CardAviso>
       </Column>
 
