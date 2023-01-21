@@ -6,6 +6,7 @@ import { createGlobalStyle } from 'styled-components';
 import Menu from './Menu';
 import Home from './Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NotFound from './NotFound';
 
 const GlobalStyled = createGlobalStyle`
   * {
@@ -31,6 +32,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <Menu/>
       <Routes>
         <Route path='/' element={<Home />}/>
+        <Route path='*' element={<NotFound />}/>
       </Routes>
     </BrowserRouter>
     <GlobalStyled/>
