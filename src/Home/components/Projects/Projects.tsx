@@ -32,9 +32,9 @@ const Projects: React.FC = () => {
 
           <LinkTitleCard href={linkPokeApi} target={'_blank'} cor={'#7E2322'}>Poke-API</LinkTitleCard>
           <PCard>
-            site pode exibir uma lista de todos os Pokémon disponíveis na série, incluindo suas
+            Esse site pode exibir uma lista de Pokémons disponíveis na série, incluindo suas
             imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos
-            usando o nome ou número de identificação, e visualizar informações detalhadas sobre cada
+            usando o nome, e visualizar informações detalhadas sobre cada
             personagem.
           </PCard>
 
