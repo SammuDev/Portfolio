@@ -4,7 +4,7 @@ const LinkButtonCard = styled.a`
   border-radius: 20px;
   background-color: #f1f1f1;
   color: var(--bs-gray-800);
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 20px;
   display: inline-block;
 

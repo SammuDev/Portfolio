@@ -6,6 +6,7 @@ const CardProject = styled.div`
   color: #000;
   text-align: center;
   height: 600px;
+  margin-top: 20px;
   padding: 30px;
 
   img {
