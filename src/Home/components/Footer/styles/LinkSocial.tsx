@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const LinkSocial = styled.a`
-  display: block;
+  display: inline-block;
   margin-bottom: 10px;
 
   &:hover {

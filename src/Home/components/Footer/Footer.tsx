@@ -35,9 +35,9 @@ const Footer: React.FC = () => {
             <BackColorALL>Redes Sociais</BackColorALL>
           </TitleFooter>
 
-          <LinkSocial href={In}><FaLinkedinIn/> Linkedin</LinkSocial>
-          <LinkSocial href={GitGub}><FaGithub/> GitHub</LinkSocial>
-          <LinkSocial href={Insta}><FaInstagram/> Instagram</LinkSocial>
+          <LinkSocial href={In} target={'_blank'}><FaLinkedinIn/> Linkedin</LinkSocial><br />
+          <LinkSocial href={GitGub} target={'_blank'}><FaGithub/> GitHub</LinkSocial><br />
+          <LinkSocial href={Insta} target={'_blank'}><FaInstagram/> Instagram</LinkSocial>
         </Column>
       </GridBox>
 
