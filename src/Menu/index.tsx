@@ -15,6 +15,8 @@ import SpanBox from './styles/SpanBox';
 import MenuMobile from './styles/MenuMobile';
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import SocialMenu from './styles/SocialMenu';
+import RoutesMobile from './styles/RoutesMobile';
+import SocialLinks from './styles/SocialLinks';
 
 const Menu: React.FC = () => {
   const [isOn, setIsOn] = useState(false);
@@ -62,12 +64,17 @@ const Menu: React.FC = () => {
       </Nav>
 
       <MenuMobile on={isOn}>
-        <Link to={'/'}>Home</Link>
-        {/* <Link to={'/'}>Services</Link>
-        <Link to={'/'}>Projects</Link> */}
-        <SocialMenu href={In} target={'_blank'}><FaLinkedinIn/></SocialMenu>
-        <SocialMenu href={GitGub} target={'_blank'}><FaGithub/></SocialMenu>
-        <SocialMenu href={Insta} target={'_blank'}><FaInstagram/></SocialMenu>
+        <RoutesMobile>
+          <Link to={'/'}>Home</Link>
+          {/* <Link to={'/'}>Services</Link>
+          <Link to={'/'}>Projects</Link> */}
+        </RoutesMobile>
+
+        <SocialLinks>
+          <SocialMenu href={In} target={'_blank'}><FaLinkedinIn/></SocialMenu>
+          <SocialMenu href={GitGub} target={'_blank'}><FaGithub/></SocialMenu>
+          <SocialMenu href={Insta} target={'_blank'}><FaInstagram/></SocialMenu>
+        </SocialLinks>
       </MenuMobile>
       <Hr/>
     </header>
