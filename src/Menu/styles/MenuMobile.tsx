@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface Props {
-  on: any;
+  on: boolean;
 }
 
 const MenuMobile = styled.div<Props>`
@@ -12,6 +12,11 @@ const MenuMobile = styled.div<Props>`
   a {
     color: #fff;
     margin-bottom: 0;
+  }
+
+  hr {
+    width: 80%;
+    margin: 0 auto;
   }
 
   @media screen and (min-width: 1020px) {

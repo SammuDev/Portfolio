@@ -19,7 +19,7 @@ import RoutesMobile from './styles/RoutesMobile';
 import SocialLinks from './styles/SocialLinks';
 
 const Menu: React.FC = () => {
-  const [isOn, setIsOn] = useState(false);
+  const [isOn, setIsOn] = useState<boolean>(false);
 
   const In = 'https://www.linkedin.com/in/samuel-santos-5b1626216/';
   const GitGub = 'https://github.com/SammuDev';
@@ -57,17 +57,28 @@ const Menu: React.FC = () => {
 
         <ContactMe>
           {/* <Link to={'/'}>Contact Me</Link> */}
-          <SocialMenu href={In} target={'_blank'}><FaLinkedinIn/></SocialMenu><br />
-          <SocialMenu href={GitGub} target={'_blank'}><FaGithub/></SocialMenu><br />
+          <SocialMenu href={In} target={'_blank'}><FaLinkedinIn/></SocialMenu>
+          <SocialMenu href={GitGub} target={'_blank'}><FaGithub/></SocialMenu>
           <SocialMenu href={Insta} target={'_blank'}><FaInstagram/></SocialMenu>
         </ContactMe>
       </Nav>
 
       <MenuMobile on={isOn}>
         <RoutesMobile>
-          <Link to={'/'}>Home</Link>
-          {/* <Link to={'/'}>Services</Link>
-          <Link to={'/'}>Projects</Link> */}
+          <Link to={'/'}>
+            Home<br />
+            <hr />
+          </Link>
+
+          {/* <Link to={'/'}>
+            Services<br />
+            <hr />
+          </Link> */}
+
+          {/* <Link to={'/'}>
+            Projects<br />
+            <hr />
+          </Link> */}
         </RoutesMobile>
 
         <SocialLinks>
