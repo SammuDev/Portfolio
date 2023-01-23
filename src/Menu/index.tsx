@@ -13,9 +13,15 @@ import ButtonHamburg from './styles/ButtonHamburg';
 import Hr from './styles/Hr';
 import SpanBox from './styles/SpanBox';
 import MenuMobile from './styles/MenuMobile';
+import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import SocialMenu from './styles/SocialMenu';
 
 const Menu: React.FC = () => {
   const [isOn, setIsOn] = useState(false);
+
+  const In = 'https://www.linkedin.com/in/samuel-santos-5b1626216/';
+  const GitGub = 'https://github.com/SammuDev';
+  const Insta = 'https://www.instagram.com/samuca_dev/';
 
   return (
     <header>
@@ -49,6 +55,9 @@ const Menu: React.FC = () => {
 
         <ContactMe>
           {/* <Link to={'/'}>Contact Me</Link> */}
+          <SocialMenu href={In} target={'_blank'}><FaLinkedinIn/></SocialMenu><br />
+          <SocialMenu href={GitGub} target={'_blank'}><FaGithub/></SocialMenu><br />
+          <SocialMenu href={Insta} target={'_blank'}><FaInstagram/></SocialMenu>
         </ContactMe>
       </Nav>
 
@@ -56,6 +65,9 @@ const Menu: React.FC = () => {
         <Link to={'/'}>Home</Link>
         {/* <Link to={'/'}>Services</Link>
         <Link to={'/'}>Projects</Link> */}
+        <SocialMenu href={In} target={'_blank'}><FaLinkedinIn/></SocialMenu>
+        <SocialMenu href={GitGub} target={'_blank'}><FaGithub/></SocialMenu>
+        <SocialMenu href={Insta} target={'_blank'}><FaInstagram/></SocialMenu>
       </MenuMobile>
       <Hr/>
     </header>

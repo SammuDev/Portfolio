@@ -11,7 +11,7 @@ const MenuMobile = styled.div<Props>`
 
   a {
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 
   @media screen and (min-width: 1020px) {
