@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import logo from './img/logo-react-icon.png';
 
+import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+
 // Abaixo: Styled-Components
 import Nav from "./styles/Nav";
 import NavBar from './styles/NavBar';
@@ -13,7 +15,6 @@ import ButtonHamburg from './styles/ButtonHamburg';
 import Hr from './styles/Hr';
 import SpanBox from './styles/SpanBox';
 import MenuMobile from './styles/MenuMobile';
-import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import SocialMenu from './styles/SocialMenu';
 import RoutesMobile from './styles/RoutesMobile';
 import SocialLinks from './styles/SocialLinks';
@@ -82,9 +83,9 @@ const Menu: React.FC = () => {
         </RoutesMobile>
 
         <SocialLinks>
-          <SocialMenu href={In} target={'_blank'}><FaLinkedinIn/></SocialMenu>
+          {/* <SocialMenu href={In} target={'_blank'}><FaLinkedinIn/></SocialMenu>
           <SocialMenu href={GitGub} target={'_blank'}><FaGithub/></SocialMenu>
-          <SocialMenu href={Insta} target={'_blank'}><FaInstagram/></SocialMenu>
+          <SocialMenu href={Insta} target={'_blank'}><FaInstagram/></SocialMenu> */}
         </SocialLinks>
       </MenuMobile>
       <Hr/>
