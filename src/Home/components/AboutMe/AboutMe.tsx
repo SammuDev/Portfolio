@@ -17,7 +17,7 @@ import Stacks from './styles/Stacks';
 
 const AboutMe: React.FC = () => {
   return (
-    <SectionAbout>
+    <SectionAbout id='skills'>
       <TitleAbout>
         Habilidades e Competências
         <p>Essas são as stacks que utilizo diariamente</p>

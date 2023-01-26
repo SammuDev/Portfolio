@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
   const linkGerador = 'https://sammudev.github.io/Gerador_De_Senhas/';
 
   return (
-    <SectionProjects>
+    <SectionProjects id='projects'>
       <Column>
         <TitleProject>
           Selecione um <BackColorALL>Projeto</BackColorALL>

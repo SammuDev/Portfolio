@@ -28,10 +28,10 @@ const Menu: React.FC = () => {
   const Insta = 'https://www.instagram.com/samuca_dev/';
 
   return (
-    <header>
+    <header id='menu'>
       <Nav>
         <Logo>
-          <Link to={'/'}><img src={logo} alt="Logo" /></Link>
+          <Link to={'menu'} smooth={true} offset={0} duration={-500}><img src={logo} alt="Logo" /></Link>
         </Logo>
 
         {/* BOTÃO DE MENU MOBILE */}
@@ -52,11 +52,10 @@ const Menu: React.FC = () => {
         </ButtonHamburg>
 
         <NavBar>
-          {/* <Link to={'/'}>Home</Link> */}
-          <Link to={'footer'} smooth={true} offset={-200} duration={-500}>Home</Link>
-          {/* <Link to={'/'}>Services</Link> */}
-          <Link to={'footer'} smooth={true} offset={200} duration={500}>Projects</Link>
-          <Link to={'/'}>Projects</Link>
+          <Link to={'menu'} smooth={true} offset={0} duration={-500}>Home</Link>
+          <Link to={'skills'} smooth={true} offset={-30} duration={-500}>Skills</Link>
+          <Link to={'projects'} smooth={true} offset={-50} duration={-500}>Projects</Link>
+          <Link to={'services'} smooth={true} offset={-10} duration={-500}>Serviços</Link>
         </NavBar>
 
         <ContactMe>
@@ -69,20 +68,10 @@ const Menu: React.FC = () => {
 
       <MenuMobile on={isOn}>
         <RoutesMobile>
-          <Link to={'/'}>
-            Home<br />
-            <hr />
-          </Link>
-
-          {/* <Link to={'/'}>
-            Services<br />
-            <hr />
-          </Link> */}
-
-          {/* <Link to={'/'}>
-            Projects<br />
-            <hr />
-          </Link> */}
+          <Link to={'menu'} smooth={true} offset={0} duration={-500}>Home</Link>
+          <Link to={'skills'} smooth={true} offset={-30} duration={-500}>Skills</Link>
+          <Link to={'projects'} smooth={true} offset={-50} duration={-500}>Projects</Link>
+          <Link to={'services'} smooth={true} offset={-10} duration={-500}>Serviços</Link>
         </RoutesMobile>
 
         <SocialLinks>
