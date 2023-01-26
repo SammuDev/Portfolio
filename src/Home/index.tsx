@@ -15,13 +15,13 @@ const Home: React.FC = () => {
       <Me>
         <TitleMe>
           <h1>
-            Desenvolvedor Front-End <br/>
-            React - TypeScript
+            Desenvolvedor<br />
+            Full-Stack
           </h1>
 
           <br />
           <p>Meu nome é Samuel Santos, tenho 21 anos e Sou Desenvolvedor</p>
-          <p>de Software Front-End, e nessa página você conhecerá um pouco</p>
+          <p>de Software Full-Stack, e nessa página você conhecerá um pouco</p>
           <p>mais sobre mim, meus projetos e os objetivos que almejo.</p>
         </TitleMe>
 

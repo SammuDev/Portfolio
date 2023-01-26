@@ -1,15 +1,19 @@
-import Next from './img/next.jpg';
+import Git from './img/git.jpg';
+import GitHub from './img/github.jpg';
+import Express from './img/express.jpg';
 import React from './img/react.jpg';
 import Styled from './img/styled.jpg';
 // import Redux from './img/redux.jpg';
 import Type from './img/typescript.jpg';
+import Next from './img/next.jpg';
 import Node from './img/node.jpg';
 
-import CardAbout from './styles/CardAbout';
+import CardStack from './styles/CardStack';
 import ImgCard from './styles/ImgCard';
 
 import SectionAbout from "./styles/SectionAbout";
 import TitleAbout from "./styles/TitleAbout";
+import Stacks from './styles/Stacks';
 
 const AboutMe: React.FC = () => {
   return (
@@ -19,29 +23,40 @@ const AboutMe: React.FC = () => {
         <p>Essas são as stacks que utilizo diariamente</p>
       </TitleAbout>
 
-      <CardAbout>
-        <ImgCard src={React} alt="Logo React.Js" />
-      </CardAbout>
+      <Stacks>
+        <CardStack>
+          <ImgCard src={Git} alt="Logo do Git" />
+        </CardStack>
 
-      <CardAbout cor={'#3178C6'}>
-        <ImgCard src={Type} alt="Logo TypeScript" />
-      </CardAbout>
+        <CardStack>
+          <ImgCard src={GitHub} alt="Logo do GitHub" />
+        </CardStack>
 
-      <CardAbout cor={'#7259C1'}>
-        <ImgCard src={Styled} alt="Logo Styled-Components" />
-      </CardAbout>
+        <CardStack>
+          <ImgCard src={React} alt="Logo React.Js" />
+        </CardStack>
 
-      {/* <CardAbout>
-        <ImgCard src={Redux} alt="Logo Redux.Js" />
-      </CardAbout> */}
+        <CardStack>
+          <ImgCard src={Type} alt="Logo TypeScript" />
+        </CardStack>
 
-      <CardAbout cor={'#BDC4CB'}>
-        <ImgCard src={Next} alt="Logo Next.Js" />
-      </CardAbout>
+        <CardStack>
+          <ImgCard src={Styled} alt="Logo Styled-Components" />
+        </CardStack>
 
-      <CardAbout cor={'#7259C1'}>
-        <ImgCard src={Node} alt="Logo do Node.Js" />
-      </CardAbout>
+        <CardStack>
+          <ImgCard src={Next} alt="Logo Next.Js" />
+        </CardStack>
+
+        <CardStack>
+          <ImgCard src={Node} alt="Logo do Node.Js" />
+        </CardStack>
+
+        <CardStack>
+          <ImgCard src={Express} alt="Logo do Express com Node.Js" />
+        </CardStack>
+      </Stacks>
+
     </SectionAbout>
   );
 };
