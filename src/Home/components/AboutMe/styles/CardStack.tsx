@@ -7,10 +7,15 @@ type Props = {
 const CardStack = styled.div<Props>`
   border: 3px solid #c0c0c0;
   border-radius: 15px;
-  width: 85%;
+  width: 48%;
   /* height: 550px; */
-  margin-top: 30px;
 
+  @media screen and (min-width: 540px) {
+    width: 45%;
+  }
+  @media screen and (min-width: 768px) {
+    width: 35%;
+  }
   @media screen and (min-width: 1020px) {
     width: 250px;
     /* height: 250px; */
