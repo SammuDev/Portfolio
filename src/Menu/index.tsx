@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 import logo from './img/logo-react-icon.png';
 
@@ -51,9 +52,11 @@ const Menu: React.FC = () => {
         </ButtonHamburg>
 
         <NavBar>
-          <Link to={'/'}>Home</Link>
-          {/* <Link to={'/'}>Services</Link>
-          <Link to={'/'}>Projects</Link> */}
+          {/* <Link to={'/'}>Home</Link> */}
+          <Link to={'footer'} smooth={true} offset={-200} duration={-500}>Home</Link>
+          {/* <Link to={'/'}>Services</Link> */}
+          <Link to={'footer'} smooth={true} offset={200} duration={500}>Projects</Link>
+          <Link to={'/'}>Projects</Link>
         </NavBar>
 
         <ContactMe>

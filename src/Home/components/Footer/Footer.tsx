@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
   const Insta = 'https://www.instagram.com/samuca_dev/';
 
   return (
-    <SectionFooter>
+    <SectionFooter id='footer'>
       <GridBox>
         <Column>
           <TitleFooter>
