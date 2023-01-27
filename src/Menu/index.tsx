@@ -44,8 +44,8 @@ const Menu: React.FC = () => {
         <NavBar>
           <Link to={'menu'} smooth={true} offset={0} duration={-500}>Home</Link>
           <Link to={'skills'} smooth={true} offset={-30} duration={-500}>Skills</Link>
-          <Link to={'projects'} smooth={true} offset={-50} duration={-500}>Projects</Link>
           <Link to={'services'} smooth={true} offset={-10} duration={-500}>Services</Link>
+          <Link to={'projects'} smooth={true} offset={-50} duration={-500}>Projects</Link>
         </NavBar>
 
         <ContactMe>
@@ -60,8 +60,8 @@ const Menu: React.FC = () => {
         <RoutesMobile>
           <Link to={'menu'} smooth={true} offset={0} duration={-500}>Home</Link>
           <Link to={'skills'} smooth={true} offset={-30} duration={-500}>Skills</Link>
-          <Link to={'projects'} smooth={true} offset={-50} duration={-500}>Projects</Link>
-          <Link to={'services'} smooth={true} offset={-10} duration={-500} id='last'>Services</Link>
+          <Link to={'services'} smooth={true} offset={-10} duration={-500}>Services</Link>
+          <Link to={'projects'} smooth={true} offset={-50} duration={-500} id='last'>Projects</Link>
         </RoutesMobile>
       </MenuMobile>
       <Hr/>
