@@ -6,6 +6,10 @@ const RoutesMobile = styled.div`
   display: flex;
   flex-direction: column;
   gap: 25px;
+
+  a#last {
+    margin-bottom: 35px;
+  }
 `;
 
 export default RoutesMobile;
