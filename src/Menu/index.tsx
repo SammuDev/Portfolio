@@ -19,6 +19,7 @@ import MenuMobile from './styles/MenuMobile';
 import SocialMenu from './styles/SocialMenu';
 import RoutesMobile from './styles/RoutesMobile';
 import SocialLinks from './styles/SocialLinks';
+import ButtonUp from './styles/ButtonUp';
 
 const Menu: React.FC = () => {
   const [isOn, setIsOn] = useState<boolean>(false);
@@ -81,6 +82,16 @@ const Menu: React.FC = () => {
         </SocialLinks>
       </MenuMobile>
       <Hr/>
+
+      {/* <ButtonUp>
+        <Link to={'menu'} smooth={true} offset={0} duration={-500}>▲</Link>
+      </ButtonUp> */}
+
+      <Link to={'menu'} smooth={true} offset={0} duration={-500}>
+        <ButtonUp>
+          <Link to={'menu'} smooth={true} offset={0} duration={-500}>▲</Link>
+        </ButtonUp>
+      </Link>
     </header>
   );
 };
