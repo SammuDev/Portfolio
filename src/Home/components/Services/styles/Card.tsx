@@ -15,6 +15,12 @@ const Card = styled.div`
     scale: 1.1;
   }
 
+  @media screen and (min-width: 540px) {
+    width: 45%;
+  }
+  @media screen and (min-width: 768px) {
+    width: 45%;
+  }
   @media screen and (min-width: 1020px) {
     width: 340px;
     & * {
