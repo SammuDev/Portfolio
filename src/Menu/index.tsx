@@ -14,7 +14,6 @@ import ContactMe from './styles/ContactMe';
 import Logo from './styles/Logo';
 import ButtonHamburg from './styles/ButtonHamburg';
 import Hr from './styles/Hr';
-import SpanBox from './styles/SpanBox';
 import MenuMobile from './styles/MenuMobile';
 import SocialMenu from './styles/SocialMenu';
 import RoutesMobile from './styles/RoutesMobile';
@@ -38,23 +37,9 @@ const Menu: React.FC = () => {
 
         {/* BOTÃO DE MENU MOBILE */}
         <ButtonHamburg onClick={() => setIsOn(!isOn)}>
-          {/* {!isOn ? (
-          <span>
-            <div></div>
-            <div></div>
-            <div></div>
-          </span>
-          ) : (
-          <SpanBox>
-            <div></div>
-            <div></div>
-            <div></div>
-          </SpanBox>
-          )} */}
-
           <DivMobile on={isOn}></DivMobile>
-          <DivMobile></DivMobile>
-          <DivMobile></DivMobile>
+          <DivMobile on={isOn}></DivMobile>
+          <DivMobile on={isOn}></DivMobile>
         </ButtonHamburg>
 
         <NavBar>
@@ -77,7 +62,7 @@ const Menu: React.FC = () => {
           <Link to={'menu'} smooth={true} offset={0} duration={-500}>Home</Link>
           <Link to={'skills'} smooth={true} offset={-30} duration={-500}>Skills</Link>
           <Link to={'projects'} smooth={true} offset={-50} duration={-500}>Projects</Link>
-          <Link to={'services'} smooth={true} offset={-10} duration={-500} id='last'>Serviços</Link>
+          <Link to={'services'} smooth={true} offset={-10} duration={-500} id='last'>Services</Link>
         </RoutesMobile>
 
         <SocialLinks>
