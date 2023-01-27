@@ -12,6 +12,7 @@ const ButtonUp = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 999;
 
   @media screen and (min-width: 540px) {
     width: 70px;
