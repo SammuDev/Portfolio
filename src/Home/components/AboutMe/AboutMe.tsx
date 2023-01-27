@@ -1,13 +1,3 @@
-import Git from './img/git.jpg';
-import GitHub from './img/github.jpg';
-import Express from './img/express.jpg';
-import React from './img/react.jpg';
-import Styled from './img/styled.jpg';
-// import Redux from './img/redux.jpg';
-import Type from './img/typescript.jpg';
-import Next from './img/next.jpg';
-import Node from './img/node.jpg';
-
 import CardStack from './styles/CardStack';
 import ImgCard from './styles/ImgCard';
 
@@ -16,6 +6,17 @@ import TitleAbout from "./styles/TitleAbout";
 import Stacks from './styles/Stacks';
 
 const AboutMe: React.FC = () => {
+  const cards = [
+    {id: 1, src:'./imgSkills/git.jpg', alt:'Logo do Git'},
+    {id: 2, src:'./imgSkills/github.jpg', alt:'Logo do GitHub'},
+    {id: 3, src:'./imgSkills/express.jpg', alt:'Logo do React.Js'},
+    {id: 4, src:'./imgSkills/react.jpg', alt:'Logo do TypeScript'},
+    {id: 5, src:'./imgSkills/styled.jpg', alt:'Logo do Styled-Components'},
+    {id: 6, src:'./imgSkills/typescript.jpg', alt:'Logo do Next.Js'},
+    {id: 7, src:'./imgSkills/next.jpg', alt:'Logo do Node.Js'},
+    {id: 8, src:'./imgSkills/node.jpg', alt:'Logo do Express'}
+  ];
+
   return (
     <SectionAbout id='skills'>
       <TitleAbout>
@@ -24,37 +25,11 @@ const AboutMe: React.FC = () => {
       </TitleAbout>
 
       <Stacks>
-        <CardStack>
-          <ImgCard src={Git} alt="Logo do Git" />
-        </CardStack>
-
-        <CardStack>
-          <ImgCard src={GitHub} alt="Logo do GitHub" />
-        </CardStack>
-
-        <CardStack>
-          <ImgCard src={React} alt="Logo React.Js" />
-        </CardStack>
-
-        <CardStack>
-          <ImgCard src={Type} alt="Logo TypeScript" />
-        </CardStack>
-
-        <CardStack>
-          <ImgCard src={Styled} alt="Logo Styled-Components" />
-        </CardStack>
-
-        <CardStack>
-          <ImgCard src={Next} alt="Logo Next.Js" />
-        </CardStack>
-
-        <CardStack>
-          <ImgCard src={Node} alt="Logo do Node.Js" />
-        </CardStack>
-
-        <CardStack>
-          <ImgCard src={Express} alt="Logo do Express com Node.Js" />
-        </CardStack>
+        {cards.map(card => (
+          <CardStack key={card.id}>
+            <ImgCard src={card.src} alt={card.alt} />
+          </CardStack>
+        ))}
       </Stacks>
 
     </SectionAbout>

@@ -55,7 +55,7 @@ const Menu: React.FC = () => {
           <Link to={'menu'} smooth={true} offset={0} duration={-500}>Home</Link>
           <Link to={'skills'} smooth={true} offset={-30} duration={-500}>Skills</Link>
           <Link to={'projects'} smooth={true} offset={-50} duration={-500}>Projects</Link>
-          <Link to={'services'} smooth={true} offset={-10} duration={-500}>Serviços</Link>
+          <Link to={'services'} smooth={true} offset={-10} duration={-500}>Services</Link>
         </NavBar>
 
         <ContactMe>
