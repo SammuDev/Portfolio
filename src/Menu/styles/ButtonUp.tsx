@@ -7,8 +7,8 @@ const ButtonUp = styled.div`
   height: 50px;
   cursor: pointer;
   position: fixed;
-  left: 80%;
-  top: 75%;
+  left: 75%;
+  top: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
