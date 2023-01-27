@@ -20,6 +20,7 @@ import SocialMenu from './styles/SocialMenu';
 import RoutesMobile from './styles/RoutesMobile';
 import SocialLinks from './styles/SocialLinks';
 import ButtonUp from './styles/ButtonUp';
+import DivMobile from './styles/DivMobile';
 
 const Menu: React.FC = () => {
   const [isOn, setIsOn] = useState<boolean>(false);
@@ -37,7 +38,7 @@ const Menu: React.FC = () => {
 
         {/* BOTÃO DE MENU MOBILE */}
         <ButtonHamburg onClick={() => setIsOn(!isOn)}>
-          {!isOn ? (
+          {/* {!isOn ? (
           <span>
             <div></div>
             <div></div>
@@ -49,7 +50,11 @@ const Menu: React.FC = () => {
             <div></div>
             <div></div>
           </SpanBox>
-          )}
+          )} */}
+
+          <DivMobile on={isOn}></DivMobile>
+          <DivMobile></DivMobile>
+          <DivMobile></DivMobile>
         </ButtonHamburg>
 
         <NavBar>
