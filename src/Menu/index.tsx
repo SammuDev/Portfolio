@@ -17,7 +17,6 @@ import Hr from './styles/Hr';
 import MenuMobile from './styles/MenuMobile';
 import SocialMenu from './styles/SocialMenu';
 import RoutesMobile from './styles/RoutesMobile';
-import SocialLinks from './styles/SocialLinks';
 import ButtonUp from './styles/ButtonUp';
 import DivMobile from './styles/DivMobile';
 
@@ -64,12 +63,6 @@ const Menu: React.FC = () => {
           <Link to={'projects'} smooth={true} offset={-50} duration={-500}>Projects</Link>
           <Link to={'services'} smooth={true} offset={-10} duration={-500} id='last'>Services</Link>
         </RoutesMobile>
-
-        <SocialLinks>
-          {/* <SocialMenu href={In} target={'_blank'}><FaLinkedinIn/></SocialMenu>
-          <SocialMenu href={GitGub} target={'_blank'}><FaGithub/></SocialMenu>
-          <SocialMenu href={Insta} target={'_blank'}><FaInstagram/></SocialMenu> */}
-        </SocialLinks>
       </MenuMobile>
       <Hr/>
 

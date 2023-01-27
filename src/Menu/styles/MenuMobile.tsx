@@ -5,18 +5,25 @@ interface Props {
 }
 
 const MenuMobile = styled.div<Props>`
-  display: ${props => props.on ? 'grid' : 'none'};
-  grid-template-columns: 1fr;
-  align-items: center;
-
-  a {
-    color: #fff;
-    margin-bottom: 0;
+  @keyframes displayOn {
+    from {height: 0;}
+    to {height: 200px;}
+  }
+  @keyframes displayOff {
+    from {height: 200px;}
+    to {height: 0;}
   }
 
-  hr {
-    width: 80%;
-    margin: 0 auto;
+  /* border: 1px solid lime; */
+  height: ${props => props.on ? '200px' : '0'};
+  display: ${props => props.on && 'grid'};
+  grid-template-columns: 1fr;
+  align-items: center;
+  animation: ${props => props.on ? 'displayOn .5s ease' : 'displayOff.5s ease'};
+  z-index: 0;
+
+  div {
+    display: ${props => !props.on && 'none'};
   }
 
   @media screen and (min-width: 1020px) {
