@@ -66,9 +66,9 @@ const Menu: React.FC = () => {
       </MenuMobile>
       <Hr/>
 
-      <Link to={'menu'} smooth={true} offset={0} duration={-500}>
+      {/* <Link to={'menu'} smooth={true} offset={0} duration={-500}>
         <ButtonUp>▲</ButtonUp>
-      </Link>
+      </Link> */}
     </header>
   );
 };
