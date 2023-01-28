@@ -13,6 +13,7 @@ const NavBar = styled.div`
       width: 100px;
       height: 50px;
       line-height: 50px;
+      cursor: pointer;
       text-align: center;
       transition: .5s;
       &:hover {
