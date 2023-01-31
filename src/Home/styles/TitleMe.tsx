@@ -14,6 +14,7 @@ const TitleMe = styled.div`
   }
   p {
     font-family: cursive;
+    text-align: justify;
     margin-top: 15px;
   }
 

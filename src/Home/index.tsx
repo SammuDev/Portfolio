@@ -20,9 +20,8 @@ const Home: React.FC = () => {
           </h1>
 
           <br />
-          <p>Meu nome é Samuel Santos, tenho 21 anos e Sou Desenvolvedor</p>
-          <p>de Software Full-Stack, e nessa página você conhecerá um pouco</p>
-          <p>mais sobre mim, meus projetos e os objetivos que almejo.</p>
+          <p>Meu nome é Samuel Santos, tenho 21 anos, sou Desenvolvedor Full-Stack e utilizo como minhas
+            principais ferramentas o TypeScript para Front-End e o Node.Js para Back-End.</p>
         </TitleMe>
 
         <MySelf>
