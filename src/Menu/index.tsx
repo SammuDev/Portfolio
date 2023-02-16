@@ -17,7 +17,7 @@ import Hr from './styles/Hr';
 import MenuMobile from './styles/MenuMobile';
 import SocialMenu from './styles/SocialMenu';
 import RoutesMobile from './styles/RoutesMobile';
-import ButtonUp from './styles/ButtonUp';
+// import ButtonUp from './styles/ButtonUp';
 import DivMobile from './styles/DivMobile';
 
 const Menu: React.FC = () => {
