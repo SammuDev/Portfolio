@@ -8,7 +8,7 @@ const Logo = styled.div`
   }
 
   img {
-    animation: spin 1s ease infinite;
+    animation: spin 2s ease infinite;
   }
 
   @media screen and (min-width: 1020px) {
