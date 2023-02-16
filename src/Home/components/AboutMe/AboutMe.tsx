@@ -15,7 +15,8 @@ const AboutMe: React.FC = () => {
     {id: 6, src:'./imgSkills/next.jpg', alt:'Logo do Next Js'},
     {id: 7, src:'./imgSkills/node.jpg', alt:'Logo do Node Js'},
     {id: 8, src:'./imgSkills/express.jpg', alt:'Logo de Express com Node'},
-    {id: 8, src:'./imgSkills/mongoDB.jpg', alt:'Logo do MongoDB'}
+    {id: 9, src:'./imgSkills/mongoDB.jpg', alt:'Logo do MongoDB'},
+    {id: 10, src:'./imgSkills/mySQL.jpg', alt:'Logo do MySQL'}
   ];
 
   return (
