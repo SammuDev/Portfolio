@@ -10,13 +10,14 @@ const AboutMe: React.FC = () => {
     {id: 1, src:'./imgSkills/git.jpg', alt:'Logo do Git'},
     {id: 2, src:'./imgSkills/github.jpg', alt:'Logo do GitHub'},
     {id: 3, src:'./imgSkills/react.jpg', alt:'Logo do React Js'},
-    {id: 4, src:'./imgSkills/styled.jpg', alt:'Logo do Styled-Components'},
-    {id: 5, src:'./imgSkills/typescript.jpg', alt:'Logo do TypeScript'},
-    {id: 6, src:'./imgSkills/next.jpg', alt:'Logo do Next Js'},
-    {id: 7, src:'./imgSkills/node.jpg', alt:'Logo do Node Js'},
-    {id: 8, src:'./imgSkills/express.jpg', alt:'Logo de Express com Node'},
-    {id: 9, src:'./imgSkills/mongoDB.jpg', alt:'Logo do MongoDB'},
-    {id: 10, src:'./imgSkills/mySQL.jpg', alt:'Logo do MySQL'}
+    {id: 4, src:'./imgSkills/typescript.jpg', alt:'Logo do TypeScript'},
+    {id: 5, src:'./imgSkills/next.jpg', alt:'Logo do Next Js'},
+    {id: 6, src:'./imgSkills/styled.jpg', alt:'Logo do Styled-Components'},
+    {id: 7, src:'./imgSkills/sass.jpg', alt:'Logo do Sass'},
+    {id: 8, src:'./imgSkills/node.jpg', alt:'Logo do Node Js'},
+    {id: 9, src:'./imgSkills/express.jpg', alt:'Logo de Express com Node'},
+    {id: 10, src:'./imgSkills/mySQL.jpg', alt:'Logo do MySQL'},
+    {id: 11, src:'./imgSkills/mongoDB.jpg', alt:'Logo do MongoDB'}
   ];
 
   return (

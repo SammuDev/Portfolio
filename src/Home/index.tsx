@@ -24,23 +24,15 @@ const Home: React.FC = () => {
           {/* <p>Meu nome é Samuel Santos, tenho 21 anos, sou Desenvolvedor Full-Stack e utilizo como minhas
             principais ferramentas o TypeScript para Front-End e o Node.Js para Back-End.</p> */}
 
-          <p>Olá, meu nome é Samuel, tenho 21 anos e sou desenvolvedor Full-Stack. Possuo habilidades em diversas tecnologias, incluindo
-            <BackColorALL>Git, GitHub, React, TypeScript, Next.js, Styled-Components, Node, Express, MongoDB e MySQL</BackColorALL>.</p>
+          <p>Olá, meu nome é Samuel, tenho 21 anos e sou desenvolvedor Full Stack. Possuo habilidades em
+            diversas tecnologias como Git, GitHub, React, TypeScript, Next.js, Styled-Components, Node, Express,
+            MySQL e MongoDB e me considero Proficiente nessas tecnologias.</p>
 
-          <p>Como desenvolvedor Full-Stack, sou capaz de trabalhar em projetos desde o desenvolvimento do Back-End até o Front-End. Utilizo
-            <BackColorALL>Git</BackColorALL> e <BackColorALL>GitHub</BackColorALL> para gerenciar e controlar as versões do meu código.</p>
-
-          <p>Trabalho com React para construir interfaces interativas e responsivas, utilizando <BackColorALL>TypeScript</BackColorALL> para
-            fornecer tipagem segura e ajudar a evitar erros de tempo de execução. Utilizo <BackColorALL>Next.js</BackColorALL> para construir
-            aplicações web de alta performance e <BackColorALL>Styled-Components</BackColorALL> para estilizar minhas aplicações de forma
-            eficiente.</p>
-
-          <p>Para o Back-End, utilizo <BackColorALL>Node</BackColorALL> e <BackColorALL>Express</BackColorALL> para construir aplicações web
-            escaláveis e seguras. Utilizo <BackColorALL>MongoDB</BackColorALL> e <BackColorALL>MySQL</BackColorALL> para armazenar e
-            gerenciar dados de forma eficiente.</p>
-
-          <p>Em resumo, sou capaz de trabalhar em projetos completos, desde o desenvolvimento do Back-End até o Front-End, utilizando as
-            tecnologias mencionadas para construir soluções robustas e escaláveis.</p>
+          <p>Como desenvolvedor Full Stack, sou capaz de trabalhar em projetos desde o desenvolvimento do Back-End até o Front-End
+            gerenciando e controlando as versões do meu código, construir interfaces interativas e responsivas, utilizando TypeScript e Next.js
+            para fornecer tipagem segura e ajudar a evitar erros de tempo de execução em aplicações web de alta performance juntamente de
+            Node, Express, MySQL e MongoDB para construir aplicações web escaláveis, seguras com armazenamento e gerenciamento de dados de
+            forma eficiente.</p>
         </TitleMe>
 
         <MySelf>
