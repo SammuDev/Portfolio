@@ -28,11 +28,9 @@ const Home: React.FC = () => {
             diversas tecnologias como Git, GitHub, React, TypeScript, Next.js, Styled-Components, Node, Express,
             MySQL e MongoDB e me considero Proficiente nessas tecnologias.</p>
 
-          <p>Como desenvolvedor Full Stack, sou capaz de trabalhar em projetos desde o desenvolvimento do Back-End até o Front-End
-            gerenciando e controlando as versões do meu código, construir interfaces interativas e responsivas, utilizando TypeScript e Next.js
-            para fornecer tipagem segura e ajudar a evitar erros de tempo de execução em aplicações web de alta performance juntamente de
-            Node, Express, MySQL e MongoDB para construir aplicações web escaláveis, seguras com armazenamento e gerenciamento de dados de
-            forma eficiente.</p>
+          <p>Como desenvolvedor Full Stack, sou capaz de trabalhar em projetos desde o desenvolvimento do Front ao Back gerenciando,
+            controlando, construindo interfaces interativas e responsivas, evitando erros de tempo de execução em aplicações web de alta
+            performance em aplicações web escaláveis, seguras com armazenamento e gerenciamento de dados.</p>
         </TitleMe>
 
         <MySelf>
