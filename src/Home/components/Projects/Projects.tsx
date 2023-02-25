@@ -12,11 +12,12 @@ import Loading from './styles/Loading';
 
 const Projects: React.FC = () => {
   const firstColum = [
-    {id: 1, img: './imgProjects/pokeball.jpg', alt: 'Card da Poke-API', href: 'https://singular-creponne-1b412e.netlify.app/'},
+    {id: 1, img: './imgProjects/pokeball.jpg', alt: 'Card da Poke-API', href: 'https://singular-creponne-1b412e.netlify.app/', title: 'Poke-API', color: '#7E2322', text:'Esse site pode exibir uma lista de Pokémons disponíveis na série, incluindo suas imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos usando o nome, e visualizar informações detalhadas sobre cada personagem.'},
   ];
 
   const lastColum = [
-    {id: 1, img: './imgProjects/gerador.jpg', alt: 'Card do Gerador', href: 'https://sammudev.github.io/Gerador_De_Senhas/'},
+    {id: 1, img: './imgProjects/deliveroo.jpg', alt: 'Card do Deliveroo', href: 'https://sammudev.github.io/Gerador_De_Senhas/', title: 'Deliveroo-App', color: '#15898B', text:''},
+    {id: 2, img: './imgProjects/gerador.jpg', alt: 'Card do Gerador', href: 'https://sammudev.github.io/Gerador_De_Senhas/', title: 'Gerador', color: '#707070', text:'Esse site pode exibir uma lista de Pokémons disponíveis na série, incluindo suas imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos usando o nome, e visualizar informações detalhadas sobre cada personagem.'},
   ];
 
   return (
@@ -33,12 +34,9 @@ const Projects: React.FC = () => {
           <CardProject key={card.id}>
             <LinkImgProject href={card.href} target={'_blank'}><img src={card.img} alt="Logo Pikachu" /></LinkImgProject>
 
-            <LinkTitleCard href={card.href} target={'_blank'} cor={'#7E2322'}>Poke-API</LinkTitleCard>
+            <LinkTitleCard href={card.href} target={'_blank'} cor={card.color}>{card.title}</LinkTitleCard>
             <PCard>
-              Esse site pode exibir uma lista de Pokémons disponíveis na série, incluindo suas
-              imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos
-              usando o nome, e visualizar informações detalhadas sobre cada
-              personagem.
+              {card.text}
             </PCard>
 
             <LinkButtonCard href={card.href} target={'_blank'}>View Project ▶</LinkButtonCard>
@@ -57,12 +55,9 @@ const Projects: React.FC = () => {
           <CardProject key={card.id}>
             <LinkImgProject href={card.href} target={'_blank'}><img src={card.img} alt="Logo Pikachu" /></LinkImgProject>
 
-            <LinkTitleCard href={card.href} target={'_blank'} cor={'#7E2322'}>Poke-API</LinkTitleCard>
+            <LinkTitleCard href={card.href} target={'_blank'} cor={card.color}>{card.title}</LinkTitleCard>
             <PCard>
-              Esse site pode exibir uma lista de Pokémons disponíveis na série, incluindo suas
-              imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos
-              usando o nome, e visualizar informações detalhadas sobre cada
-              personagem.
+              {card.text}
             </PCard>
 
             <LinkButtonCard href={card.href} target={'_blank'}>View Project ▶</LinkButtonCard>
