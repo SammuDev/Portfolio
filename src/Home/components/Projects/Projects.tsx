@@ -1,6 +1,3 @@
-import Pikachu from './img/pokeball.jpg';
-import Gerador from './img/gerador.jpg';
-
 import BackColorALL from "../../styles/BackColorALL";
 import CardProject from "./styles/CardProject";
 import Column from "./styles/Column";
@@ -17,8 +14,13 @@ const Projects: React.FC = () => {
   const linkPokeApi = 'https://singular-creponne-1b412e.netlify.app/';
   const linkGerador = 'https://sammudev.github.io/Gerador_De_Senhas/';
 
+  const card = [
+    {id: 1, img: ''},
+  ];
+
   return (
     <SectionProjects id='projects'>
+      {/* ===== PRIMEIRA COLUNA ===== */}
       <Column>
         <TitleProject>
           Selecione um <BackColorALL>Projeto</BackColorALL>
@@ -45,8 +47,9 @@ const Projects: React.FC = () => {
         </CardAviso>
       </Column>
 
+      {/* ===== SEGUNDA COLUNA ===== */}
       <Column>
-        {/* SEGUBDO PROJETO */}
+        {/* SEGUNDO PROJETO */}
         <CardProject>
           <LinkImgProject href={linkGerador} target={'_blank'}><img src={Gerador} alt="Logo Gerador de Senhas" /></LinkImgProject>
 
