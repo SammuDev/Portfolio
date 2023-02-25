@@ -12,12 +12,12 @@ import Loading from './styles/Loading';
 
 const Projects: React.FC = () => {
   const firstColum = [
-    {id: 1, img: './imgProjects/pokeball.jpg', alt: 'Card da Poke-API', href: 'https://singular-creponne-1b412e.netlify.app/', title: 'Poke-API', color: '#7E2322', text:'Esse site pode exibir uma lista de Pokémons disponíveis na série, incluindo suas imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos usando o nome, e visualizar informações detalhadas sobre cada personagem.'},
+    {id: 1, img: './imgProjects/pokeball.jpg', alt: 'Card da Poke-API', href: 'https://singular-creponne-1b412e.netlify.app/', title: 'Poke-API', color: '#ff0000', text:'Esse site pode exibir uma lista de Pokémons disponíveis na série, incluindo suas imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos usando o nome, e visualizar informações detalhadas sobre cada personagem.'},
   ];
 
   const lastColum = [
-    {id: 1, img: './imgProjects/deliveroo.jpg', alt: 'Card do Deliveroo', href: 'https://sammudev.github.io/Gerador_De_Senhas/', title: 'Deliveroo-App', color: '#15898B', text:''},
-    {id: 2, img: './imgProjects/gerador.jpg', alt: 'Card do Gerador', href: 'https://sammudev.github.io/Gerador_De_Senhas/', title: 'Gerador', color: '#707070', text:'Esse site pode exibir uma lista de Pokémons disponíveis na série, incluindo suas imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos usando o nome, e visualizar informações detalhadas sobre cada personagem.'},
+    {id: 1, img: './imgProjects/deliveroo.jpg', alt: 'Card do Deliveroo', href: 'https://sammudev.github.io/Gerador_De_Senhas/', title: 'Deliveroo-App', color: '#15898B', text:'Aplicativo com interface simples e fácil de usar, permitindo que os usuários encontrem rapidamente os restaurantes e pratos que desejam. Os usuários também podem fazer alterações em seus pedidos, como adicionar ou remover itens e escolher opções de entrega e pagamento.'},
+    {id: 2, img: './imgProjects/gerador.jpg', alt: 'Card do Gerador', href: 'https://sammudev.github.io/Gerador_De_Senhas/', title: 'Gerador', color: '#212121', text:'Esse site pode exibir uma lista de Pokémons disponíveis na série, incluindo suas imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos usando o nome, e visualizar informações detalhadas sobre cada personagem.'},
   ];
 
   return (
