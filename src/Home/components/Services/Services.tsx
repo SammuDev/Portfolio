@@ -1,7 +1,3 @@
-import WebDesign from './img/web-design.jpg';
-import SeoApi from './img/seo-api.jpg';
-import ScalableApp from './img/apps-escaláveis.jpg';
-
 import Card from "./styles/Card";
 import CardServices from "./styles/CardServices";
 import H2Card from "./styles/H2Card";
@@ -13,6 +9,18 @@ import ParagraphServices from './styles/ParagraphServices';
 import BackColorALL from '../../styles/BackColorALL';
 
 const Services: React.FC = () => {
+  const cards = [
+    {id: 1, h2: 'Desenvolvimento web', img: './imgServices/web.jpg', alt: 'Web Design', p: 'Construção de websites e aplicações web, desde a concepção até a implementação e manutenção.'},
+    {id: 2, h2: 'Desenvolvimento de aplicativos móveis', img: './imgServices/mobile.jpg', alt: 'Web Design', p: 'Criação de aplicativos móveis para iOS e Android usando tecnologias como React Native.'},
+    {id: 3, h2: 'Desenvolvimento de software personalizado', img: './imgServices/web-design.jpg', alt: 'Web Design', p: 'Criação de softwares personalizados para atender às necessidades específicas de seus clientes.'},
+    {id: 4, h2: 'Desenvolvimento de sistemas de gerenciamento de conteúdo (CMS)', img: './imgServices/cms.jpg', alt: 'Web Design', p: 'Construção de sistemas de gerenciamento de conteúdo para permitir que seus clientes gerenciem facilmente seu próprio conteúdo.'},
+    {id: 5, h2: 'Migração de sistemas legados', img: './imgServices/legado.jpg', alt: 'Web Design', p: 'Migração de sistemas legados para tecnologias modernas para melhorar a eficiência e a escalabilidade.'},
+    {id: 6, h2: 'Integração de sistemas', img: './imgServices/integração.jpg', alt: 'Web Design', p: 'Integração de diferentes sistemas, aplicativos ou plataformas para garantir que eles trabalhem juntos de forma eficiente.'},
+    {id: 7, h2: 'Teste e garantia da qualidade', img: './imgServices/seo.jpg', alt: 'Web Design', p: 'Implementação de práticas de teste e garantia da qualidade para garantir a funcionalidade e a usabilidade dos sistemas desenvolvidos.'},
+    {id: 8, h2: 'Consultoria técnica', img: './imgServices/consultoria.jpg', alt: 'Web Design', p: 'Fornecimento de consultoria técnica para ajudar seus clientes a tomar decisões informadas sobre tecnologias e soluções de software.'},
+    {id: 9, h2: 'Manutenção e suporte', img: './imgServices/suporte.jpg', alt: 'Web Design', p: 'Fornecimento de manutenção e suporte para sistemas e aplicativos já desenvolvidos para garantir sua eficiência contínua.'},
+  ];
+
   return (
     <SectionServices id='services'>
       <TitleServices>
@@ -27,36 +35,14 @@ const Services: React.FC = () => {
       </ParagraphServices>
 
       <CardServices>
-        <Card>
-          <ImgCard src={WebDesign} alt="Web Design" />
+        {cards.map(card => (
+          <Card key={card.id}>
+            <ImgCard src={card.img} alt={card.alt} />
 
-          <H2Card>WebSite Design</H2Card>
-          <Pcard>
-            Utilizando React, TypeScript e Styled-Components para construir interfaces de usuário
-            incríveis que sejam fáceis de navegar e usar para os usuários.
-          </Pcard>
-        </Card>
-
-        <Card>
-          <ImgCard src={ScalableApp} alt="Apps Escaláveis" />
-
-          <H2Card>Aplicativos web escaláveis</H2Card>
-          <Pcard>
-            Utilizando Redux para gerenciar o estado global do aplicativo e
-            Next.js para construir aplicativos web de alta performance que possam lidar com uma grande
-            quantidade de tráfego.
-          </Pcard>
-        </Card>
-
-        <Card>
-          <ImgCard src={SeoApi} alt="SEO e Integração com API" />
-
-          <H2Card>Otimização de SEO e Integração com APIs</H2Card>
-          <Pcard>
-            Utilizando técnicas de SEO para garantir que o site seja facilmente encontrado nos motores
-            de busca e Integrando o site ou aplicativo com APIs externas para obter e exibir dados dinâmicos.
-          </Pcard>
-        </Card>
+            <H2Card>{card.h2}</H2Card>
+            <Pcard>{card.p}</Pcard>
+          </Card>
+        ))}
       </CardServices>
     </SectionServices>
   );
