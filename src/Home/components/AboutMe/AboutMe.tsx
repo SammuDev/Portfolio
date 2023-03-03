@@ -15,10 +15,11 @@ const AboutMe: React.FC = () => {
     {id: 6, src:'./imgSkills/next.jpg', alt:'Logo do Next Js'},
     {id: 7, src:'./imgSkills/styled.jpg', alt:'Logo do Styled-Components'},
     {id: 8, src:'./imgSkills/sass.jpg', alt:'Logo do Sass'},
-    {id: 9, src:'./imgSkills/node.jpg', alt:'Logo do Node Js'},
-    {id: 10, src:'./imgSkills/express.jpg', alt:'Logo de Express com Node'},
-    {id: 11, src:'./imgSkills/mySQL.jpg', alt:'Logo do MySQL'},
-    {id: 12, src:'./imgSkills/mongoDB.jpg', alt:'Logo do MongoDB'}
+    {id: 9, src:'./imgSkills/firebase.jpg', alt:'Logo do Firebase'},
+    {id: 10, src:'./imgSkills/node.jpg', alt:'Logo do Node Js'},
+    {id: 11, src:'./imgSkills/express.jpg', alt:'Logo de Express com Node'},
+    {id: 12, src:'./imgSkills/mySQL.jpg', alt:'Logo do MySQL'},
+    {id: 13, src:'./imgSkills/mongoDB.jpg', alt:'Logo do MongoDB'}
   ];
 
   return (
