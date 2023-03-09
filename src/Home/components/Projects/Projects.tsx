@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
   ];
 
   const lastColum = [
-    {id: 1, img: './imgProjects/deliveroo.jpg', alt: 'Card do Deliveroo', href: 'https://sammudev.github.io/Gerador_De_Senhas/', title: 'Deliveroo-App', color: '#15898B', text:'Aplicativo com interface simples e fácil de usar, permitindo que os usuários encontrem rapidamente os restaurantes e pratos que desejam. Os usuários também podem fazer alterações em seus pedidos, como adicionar ou remover itens e escolher opções de entrega e pagamento.'},
+    {id: 1, img: './imgProjects/laundry.jpg', alt: 'Card do Laundry-App', href: 'https://sammudev.github.io/Gerador_De_Senhas/', title: 'Laundry-App', color: '#6B5DFF', text:'Aplicativo com interface simples e fácil de usar, permitindo que os usuários encontrem rapidamente os restaurantes e pratos que desejam. Os usuários também podem fazer alterações em seus pedidos, como adicionar ou remover itens e escolher opções de entrega e pagamento.'},
     {id: 2, img: './imgProjects/gerador.jpg', alt: 'Card do Gerador', href: 'https://sammudev.github.io/Gerador_De_Senhas/', title: 'Gerador', color: '#212121', text:'Esse site pode exibir uma lista de Pokémons disponíveis na série, incluindo suas imagens, tipos, habilidades e estatísticas. Os usuários podem procurar Pokémon específicos usando o nome, e visualizar informações detalhadas sobre cada personagem.'},
   ];
 
