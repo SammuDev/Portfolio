@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         <TitleMe>
           <h1>
             Desenvolvedor<br />
-            Full-Stack
+            Mobile
           </h1>
 
           <br />
