@@ -18,7 +18,6 @@ const AboutMe: React.FC = () => {
     {id: 9, src:'./imgSkills/firebase.jpg', alt:'Logo do Firebase'},
     {id: 10, src:'./imgSkills/node.jpg', alt:'Logo do Node Js'},
     {id: 11, src:'./imgSkills/express.jpg', alt:'Logo de Express com Node'},
-    {id: 12, src:'./imgSkills/mySQL.jpg', alt:'Logo do MySQL'},
     {id: 13, src:'./imgSkills/mongoDB.jpg', alt:'Logo do MongoDB'}
   ];
 
