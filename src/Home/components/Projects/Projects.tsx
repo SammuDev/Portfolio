@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
         <p>A sessão de projetos é onde podem ser encontrados projetos em andamento ou concluídos por mim.</p>
 
         {/* PRIMEIRO PROJETO */}
-        {firstColum.map(card => (
+        {/* {firstColum.map(card => (
           <CardProject key={card.id}>
             <LinkImgProject href={card.href} target={'_blank'}>
               <img src={card.img} alt="Logo Pikachu" />
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
 
             <LinkButtonCard href={card.href} target={'_blank'}>View Project ▶</LinkButtonCard>
           </CardProject>
-        ))}
+        ))} */}
 
         <CardAviso display={'none'}>
           Projeto em andamento <Loading/>
@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
       {/* ===== SEGUNDA COLUNA ===== */}
       <Column>
         {/* SEGUNDO PROJETO */}
-        {lastColum.map(card => (
+        {/* {lastColum.map(card => (
           <CardProject key={card.id}>
             <LinkImgProject href={card.href} target={'_blank'}>
               <img src={card.img} alt="Logo Pikachu" />
@@ -72,7 +72,7 @@ const Projects: React.FC = () => {
 
             <LinkButtonCard href={card.href} target={'_blank'}>View Project ▶</LinkButtonCard>
           </CardProject>
-        ))}
+        ))} */}
         <CardAviso>
           Projeto em andamento <Loading/>
         </CardAviso>
