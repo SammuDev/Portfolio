@@ -7,10 +7,8 @@ import Stacks from './styles/Stacks';
 
 const AboutMe: React.FC = () => {
   const cards = [
-    {id: 1, src:'./imgSkills/git.jpg', alt:'Logo do Git'},
-    {id: 2, src:'./imgSkills/github.jpg', alt:'Logo do GitHub'},
-    {id: 3, src:'./imgSkills/kotlin.jpg', alt:'Logo do React Js'},
-    {id: 4, src:'./imgSkills/androidStudio.jpg', alt:'Logo do React Native'}
+    {id: 1, src:'./imgSkills/kotlin.jpg', alt:'Logo do React Js'},
+    {id: 2, src:'./imgSkills/androidStudio.jpg', alt:'Logo do React Native'}
   ];
 
   return (

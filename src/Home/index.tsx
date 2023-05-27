@@ -17,20 +17,19 @@ const Home: React.FC = () => {
         <TitleMe>
           <h1>
             Desenvolvedor<br />
-            Mobile
+            Android
           </h1>
 
           <br />
           {/* <p>Meu nome é Samuel Santos, tenho 21 anos, sou Desenvolvedor Full-Stack e utilizo como minhas
             principais ferramentas o TypeScript para Front-End e o Node.Js para Back-End.</p> */}
 
-          <p>Olá, meu nome é Samuel, tenho 21 anos e sou desenvolvedor Full Stack. Possuo habilidades em
-            diversas tecnologias como Git, GitHub, React, TypeScript, Next.js, Styled-Components, Node, Express,
-            MySQL e MongoDB e me considero Proficiente nessas tecnologias.</p>
+          <p>Sou Desenvolvedor Kotlin Android apaixonado por criar aplicativos incríveis e funcionais. Com um
+            ano de experiência nessa área, tenho tido a oportunidade de mergulhar em projetos desafiadores,
+            explorando o vasto ecossistema Android e aplicando as melhores práticas de desenvolvimento.</p>
 
-          <p>Como desenvolvedor Full Stack, sou capaz de trabalhar em projetos desde o desenvolvimento do Front ao Back gerenciando,
-            controlando, construindo interfaces interativas e responsivas, evitando erros de tempo de execução em aplicações web de alta
-            performance em aplicações web escaláveis, seguras com armazenamento e gerenciamento de dados.</p>
+          <p>Estou aberto a novas oportunidades e ansioso para enfrentar novos desafios
+            que me permitam expandir meu conhecimento e contribuir para o sucesso de projetos inovadores.</p>
         </TitleMe>
 
         <MySelf>
@@ -41,8 +40,8 @@ const Home: React.FC = () => {
       <Hr/>
       <AboutMe/>
 
-      <Hr/>
-      <Services/>
+      {/* <Hr/>
+      <Services/> */}
 
       <Hr/>
       <Projects/>
