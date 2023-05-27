@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             <BackColorALL>Entre em contato</BackColorALL>
           </TitleFooter>
 
-          <LinkEmail href='mailto:samucas878@gmail.com'><FaEnvelope/> samucas878@gmail.com</LinkEmail><br/>
+          <LinkEmail href='mailto:samugod2k@gmail.com'><FaEnvelope/> samugod2k@gmail.com</LinkEmail><br/>
           <LinkWhats href='https://wa.me/5579988042570' target={'_blank'}><SiWhatsapp/> (79) 9.8804-2570</LinkWhats>
         </Column>
 
